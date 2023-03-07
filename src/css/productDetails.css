@@ -1,0 +1,130 @@
+* {
+  border-size: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* Each product */
+
+.eachproduct-container {
+  border: 1px solid white;
+  margin: auto;
+  width: 400px;
+  border-radius: 14px;
+  background-color: #1864AB;
+} 
+
+.eachproduct-image-container {
+  width:400px;
+}
+
+.eachproduct-image-slider {
+  display: flex;
+  alignItems: center;
+  justifyContent: center;
+  background-Size: cover;
+  height: 400px;
+  width:400px;
+}
+
+.eachproduct-details-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.eachproduct-details-heading {
+  font-size: 28px;
+  color: #fff;
+}
+
+.eachproduct-details-description {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom:17px;
+}
+
+.eachproduct-details-brand-container {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.eachproduct-brand-tag {
+  border-right: 1px solid white;
+  padding-right: 17px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.eachproduct-brand-name p {
+  padding-left: 17px;
+}
+
+.eachproduct-details-pricinglist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #fff;
+  gap: 20px;
+}
+
+.eachproduct-details-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  gap: 13px;
+}
+
+.eachproduct-details-buttons a,button {
+  padding: 12px;
+  background-color: #fff;
+  cursor:pointer;
+  font-weight:bold;
+  border-radius: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.eachproduct-details-disablebutton {
+  background-color: #000000;
+  color: #fff;
+}
+
+.eachproduct-details-disablebutton:hover {
+  transition: all 2s;
+  background-color: #fff;
+  color: #000000;
+}
+
+.eachproduct-details-activebutton:hover {
+  transition: all 2s;
+  background-color: #000000;
+  color: #fff;
+}
+
+.eachProduct-details-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin: 0px 0px 10px -60px;
+  font-size: 18px;
+
+}
+
+.price {
+  font-weight: bold;
+}
+
+
